@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang cá nhân của Hoàng Trung Hiếu</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="about.html">Giới thiệu</a></li>
+          <li><a href="contact.html">Liên hệ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="gioi-thieu">
+        <h1>Giới thiệu</h1>
+        <p>Xin chào, tôi là Khoang Trung Hiếu. Tôi đang học lập trình web.</p>
+        <figure>
+          <img
+            src="assets/img/anh1.jpg"
+            alt="Ảnh của tôi"
+            width="300"
+            height="200"
+          />
+          <figcaption>Đây là ảnh của tôi</figcaption>
+        </figure>
+      </section>
+
+      <section id="ky-nang">
+        <h2>Kỹ năng</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+
+      <section id="du-an">
+        <h2>Dự án</h2>
+        <p>
+          Tôi đã thực hiện một số dự án nhỏ trong quá trình học lập trình web.
+        </p>
+        <article>
+          <h3>Dự án 1</h3>
+          <p>Mô tả dự án 1.</p>
+        </article>
+        <article>
+          <h3>Dự án 2</h3>
+          <p>Mô tả dự án 2.</p>
+        </article>
+      </section>
+
+      <section id="lo-trinh-hoc-tap">
+        <h2>Lộ trình học tập</h2>
+        <p>
+          Tôi đang theo học các khóa học trực tuyến và thực hành lập trình web.
+        </p>
+        <ol>
+          <li>Khóa học HTML cơ bản</li>
+          <li>Khóa học CSS nâng cao</li>
+          <li>Khóa học JavaScript</li>
+        </ol>
+      </section>
+
+      <section id="lien-he">
+        <h2>Liên hệ</h2>
+        <form action="submit_form.php" method="post">
+          <label for="name">Tên:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Tin nhắn:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Gửi</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Khoang Trung Hiếu. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
