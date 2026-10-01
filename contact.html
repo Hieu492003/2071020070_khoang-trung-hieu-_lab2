@@ -1,0 +1,70 @@
+Dưới đây là mã nguồn HTML cho file contact.html hoàn thiện, đồng bộ cấu trúc và
+phong cách với các trang index.html và about.html trước đó: HTML
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liên hệ</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="about.html">Giới thiệu</a></li>
+          <li><a href="contact.html">Liên hệ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="lien-he">
+        <h1>Thông tin liên hệ</h1>
+        <p>
+          Nếu bạn có thắc mắc hoặc muốn hợp tác, vui lòng liên hệ với tôi qua
+          các thông tin dưới đây hoặc gửi tin nhắn trực tiếp.
+        </p>
+
+        <ul>
+          <li><strong>Họ và tên:</strong> Khoang Trung Hiếu</li>
+          <!-- Thêm thông tin liên hệ -->
+          <li><strong>Email:</strong> hieukhoang@example.com</li>
+          <li><strong>Điện thoại:</strong> 0374653813</li>
+          <li><strong>Địa chỉ:</strong> lai châu, Việt Nam</li>
+        </ul>
+      </section>
+
+      <section id="bieu-mau-lien-he">
+        <h2>Gửi tin nhắn</h2>
+        <form action="#" method="post">
+          <p>
+            <label for="name">Họ và tên:</label><br />
+            <input type="text" id="name" name="name" required />
+          </p>
+          <p>
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required />
+          </p>
+          <p>
+            <label for="message">Nội dung tin nhắn:</label><br />
+            <!-- Thêm trường nhập liệu cho nội dung tin nhắn -->
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              cols="30"
+              required
+            ></textarea>
+            <!-- Thêm thuộc tính required để đảm bảo người dùng phải nhập nội dung tin nhắn -->
+          </p>
+          <p>
+            <button type="submit">Gửi tin nhắn</button>
+          </p>
+        </form>
+      </section>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>

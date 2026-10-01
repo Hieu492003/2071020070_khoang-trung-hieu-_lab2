@@ -3,13 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trang cá nhân của Hoàng Trung Hiếu</title>
+    <title>Giới thiệu</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <!-- Trong HTML, thẻ <nav> (viết tắt của Navigation) là một thẻ ngữ nghĩa (semantic tag) được dùng để định nghĩa một khu vực chứa các liên kết điều hướng chính -->
         <ul>
           <li><a href="index.html">Trang chủ</a></li>
           <li><a href="about.html">Giới thiệu</a></li>
@@ -47,17 +46,15 @@
         <p>
           Tôi đã thực hiện một số dự án nhỏ trong quá trình học lập trình web.
         </p>
-        <article>
-          <h3>Dự án 1</h3>
-          <p>Mô tả dự án 1.</p>
-        </article>
-        <article>
-          <h3>Dự án 2</h3>
-          <p>Mô tả dự án 2.</p>
-        </article>
+
+        <h3>Dự án 1</h3>
+        <p>Mô tả dự án 1.</p>
+
+        <h3>Dự án 2</h3>
+        <p>Mô tả dự án 2.</p>
       </section>
 
-      <section id="lo-trinh-hoc-tap">
+      <section id="lo-trinh">
         <h2>Lộ trình học tập</h2>
         <p>
           Tôi đang theo học các khóa học trực tuyến và thực hành lập trình web.
@@ -71,24 +68,8 @@
 
       <section id="lien-he">
         <h2>Liên hệ</h2>
-        <form action="submit_form.php" method="post">
-          <label for="name">Tên:</label>
-          <input type="text" id="name" name="name" required />
-
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-
-          <label for="message">Tin nhắn:</label>
-          <textarea id="message" name="message" required></textarea>
-
-          <button type="submit">Gửi</button>
-        </form>
       </section>
     </main>
-
-    <footer>
-      <p>&copy; 2024 Khoang Trung Hiếu. All rights reserved.</p>
-    </footer>
     <script src="js/script.js"></script>
   </body>
 </html>
